@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tanishka's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            padding: 50px 20px;
+        }
+
+        img {
+            width: 120px;
+            border-radius: 50%;
+            margin-top: 20px;
+            border: 3px solid white;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-top: 10px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .card {
+            background: white;
+            color: black;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 400px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background: #5a67d8;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <img src="https://via.placeholder.com/120" alt="profile">
+
+    <h1>Tanu 👋</h1>
+    <p>Computer Engineering Student 💻</p>
+
+    <div class="card">
+        <h2>About Me</h2>
+        <p>I am learning web development and programming.</p>
+    </div>
+
+    <div class="card">
+        <h2>My Skills</h2>
+        <p>HTML | CSS | Basics of Coding</p>
+    </div>
+
+    <div class="card">
+        <h2>Contact</h2>
+        <a href="#" class="btn">Follow Me</a>
+    </div>
+
+</div>
+
+</body>
+</html>
